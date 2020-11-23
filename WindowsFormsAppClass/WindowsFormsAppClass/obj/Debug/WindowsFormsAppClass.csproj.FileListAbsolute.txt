@@ -1,0 +1,11 @@
+C:\Users\AlumnoMCSD\Desktop\C#\WindowsFormsAppClass\WindowsFormsAppClass\bin\Debug\WindowsFormsAppClass.exe.config
+C:\Users\AlumnoMCSD\Desktop\C#\WindowsFormsAppClass\WindowsFormsAppClass\bin\Debug\WindowsFormsAppClass.exe
+C:\Users\AlumnoMCSD\Desktop\C#\WindowsFormsAppClass\WindowsFormsAppClass\bin\Debug\WindowsFormsAppClass.pdb
+C:\Users\AlumnoMCSD\Desktop\C#\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.csprojAssemblyReference.cache
+C:\Users\AlumnoMCSD\Desktop\C#\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.Form1.resources
+C:\Users\AlumnoMCSD\Desktop\C#\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.Properties.Resources.resources
+C:\Users\AlumnoMCSD\Desktop\C#\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.csproj.GenerateResource.cache
+C:\Users\AlumnoMCSD\Desktop\C#\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.exe
+C:\Users\AlumnoMCSD\Desktop\C#\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.pdb
+C:\Users\AlumnoMCSD\Desktop\C#\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.FormConversion.resources
+C:\Users\AlumnoMCSD\Desktop\C#\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.FormSumar.resources
