@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FundamentosForms;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace WindowsFormsAppClass
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form04CambiarForm());
+            Application.Run(new Form05MayorTresNumeros());
         }
     }
 }
