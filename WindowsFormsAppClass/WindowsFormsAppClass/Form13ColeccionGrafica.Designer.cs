@@ -45,18 +45,17 @@
             this.lblElementos.AutoSize = true;
             this.lblElementos.Location = new System.Drawing.Point(86, 61);
             this.lblElementos.Name = "lblElementos";
-            this.lblElementos.Size = new System.Drawing.Size(109, 24);
+            this.lblElementos.Size = new System.Drawing.Size(162, 33);
             this.lblElementos.TabIndex = 0;
             this.lblElementos.Text = "Elementos";
-            
             // 
             // lstElementos
             // 
             this.lstElementos.FormattingEnabled = true;
-            this.lstElementos.ItemHeight = 24;
+            this.lstElementos.ItemHeight = 33;
             this.lstElementos.Location = new System.Drawing.Point(90, 100);
             this.lstElementos.Name = "lstElementos";
-            this.lstElementos.Size = new System.Drawing.Size(199, 220);
+            this.lstElementos.Size = new System.Drawing.Size(199, 202);
             this.lstElementos.TabIndex = 1;
             this.lstElementos.SelectedIndexChanged += new System.EventHandler(this.lstElementos_SelectedIndexChanged);
             // 
@@ -65,18 +64,16 @@
             this.lblElemento.AutoSize = true;
             this.lblElemento.Location = new System.Drawing.Point(441, 61);
             this.lblElemento.Name = "lblElemento";
-            this.lblElemento.Size = new System.Drawing.Size(99, 24);
+            this.lblElemento.Size = new System.Drawing.Size(146, 33);
             this.lblElemento.TabIndex = 2;
             this.lblElemento.Text = "Elemento";
-           
             // 
             // txtElemento
             // 
             this.txtElemento.Location = new System.Drawing.Point(409, 100);
             this.txtElemento.Name = "txtElemento";
-            this.txtElemento.Size = new System.Drawing.Size(253, 29);
+            this.txtElemento.Size = new System.Drawing.Size(253, 40);
             this.txtElemento.TabIndex = 3;
-          
             // 
             // btnInsertar
             // 
@@ -125,24 +122,22 @@
             this.lblPosicion.AutoSize = true;
             this.lblPosicion.Location = new System.Drawing.Point(86, 355);
             this.lblPosicion.Name = "lblPosicion";
-            this.lblPosicion.Size = new System.Drawing.Size(90, 24);
+            this.lblPosicion.Size = new System.Drawing.Size(134, 33);
             this.lblPosicion.TabIndex = 8;
             this.lblPosicion.Text = "Posicion";
-           
             // 
             // lblSeleccionado
             // 
             this.lblSeleccionado.AutoSize = true;
             this.lblSeleccionado.Location = new System.Drawing.Point(86, 429);
             this.lblSeleccionado.Name = "lblSeleccionado";
-            this.lblSeleccionado.Size = new System.Drawing.Size(138, 24);
+            this.lblSeleccionado.Size = new System.Drawing.Size(202, 33);
             this.lblSeleccionado.TabIndex = 9;
             this.lblSeleccionado.Text = "Seleccionado";
-           
             // 
             // Form13ColeccionGrafica
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(18F, 33F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(724, 541);

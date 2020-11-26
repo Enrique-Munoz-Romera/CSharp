@@ -45,7 +45,7 @@
             this.lblSeleccionados.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.lblSeleccionados.Location = new System.Drawing.Point(15, 368);
             this.lblSeleccionados.Name = "lblSeleccionados";
-            this.lblSeleccionados.Size = new System.Drawing.Size(126, 20);
+            this.lblSeleccionados.Size = new System.Drawing.Size(186, 29);
             this.lblSeleccionados.TabIndex = 19;
             this.lblSeleccionados.Text = "Seleccionados";
             // 
@@ -55,7 +55,7 @@
             this.lblIndices.BackColor = System.Drawing.SystemColors.ControlDark;
             this.lblIndices.Location = new System.Drawing.Point(15, 308);
             this.lblIndices.Name = "lblIndices";
-            this.lblIndices.Size = new System.Drawing.Size(67, 20);
+            this.lblIndices.Size = new System.Drawing.Size(97, 29);
             this.lblIndices.TabIndex = 18;
             this.lblIndices.Text = "Indices";
             // 
@@ -75,7 +75,7 @@
             // 
             this.txtElemento.Location = new System.Drawing.Point(318, 70);
             this.txtElemento.Name = "txtElemento";
-            this.txtElemento.Size = new System.Drawing.Size(253, 26);
+            this.txtElemento.Size = new System.Drawing.Size(253, 35);
             this.txtElemento.TabIndex = 13;
             // 
             // lblElemento
@@ -83,7 +83,7 @@
             this.lblElemento.AutoSize = true;
             this.lblElemento.Location = new System.Drawing.Point(360, 31);
             this.lblElemento.Name = "lblElemento";
-            this.lblElemento.Size = new System.Drawing.Size(85, 20);
+            this.lblElemento.Size = new System.Drawing.Size(124, 29);
             this.lblElemento.TabIndex = 12;
             this.lblElemento.Text = "Elemento";
             // 
@@ -91,11 +91,11 @@
             // 
             this.lstElementos.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.lstElementos.FormattingEnabled = true;
-            this.lstElementos.ItemHeight = 20;
+            this.lstElementos.ItemHeight = 29;
             this.lstElementos.Location = new System.Drawing.Point(19, 70);
             this.lstElementos.Name = "lstElementos";
             this.lstElementos.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.lstElementos.Size = new System.Drawing.Size(199, 204);
+            this.lstElementos.Size = new System.Drawing.Size(199, 178);
             this.lstElementos.TabIndex = 11;
             // 
             // lblElementos
@@ -103,7 +103,7 @@
             this.lblElementos.AutoSize = true;
             this.lblElementos.Location = new System.Drawing.Point(15, 31);
             this.lblElementos.Name = "lblElementos";
-            this.lblElementos.Size = new System.Drawing.Size(94, 20);
+            this.lblElementos.Size = new System.Drawing.Size(137, 29);
             this.lblElementos.TabIndex = 10;
             this.lblElementos.Text = "Elementos";
             // 
@@ -117,6 +117,7 @@
             this.btnEliminar.TabIndex = 15;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnSeleccionado
             // 
@@ -132,7 +133,7 @@
             // 
             // Form14SeleccionMultipleListBox
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(601, 439);
             this.Controls.Add(this.btnSeleccionado);
@@ -145,7 +146,7 @@
             this.Controls.Add(this.lstElementos);
             this.Controls.Add(this.lblElementos);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Form14SeleccionMultipleListBox";
             this.Text = "Form14SeleccionMultipleListBox";
             this.ResumeLayout(false);

@@ -112,6 +112,30 @@
     <Compile Include="Form14SeleccionMultipleListBox.Designer.cs">
       <DependentUpon>Form14SeleccionMultipleListBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form15ColeccionNumeroListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15ColeccionNumeroListBox.Designer.cs">
+      <DependentUpon>Form15ColeccionNumeroListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form16TiendaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form16TiendaProductos.Designer.cs">
+      <DependentUpon>Form16TiendaProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form17MetodoReferencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form17MetodoReferencia.Designer.cs">
+      <DependentUpon>Form17MetodoReferencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form18MetodosEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form18MetodosEvento.Designer.cs">
+      <DependentUpon>Form18MetodosEvento.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormConversion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +147,12 @@
     </Compile>
     <Compile Include="FormPracticaCumpleaños.designer.cs">
       <DependentUpon>FormPracticaCumpleaños.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPracticaIndividual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPracticaIndividual.Designer.cs">
+      <DependentUpon>FormPracticaIndividual.cs</DependentUpon>
     </Compile>
     <Compile Include="FormSumar.cs">
       <SubType>Form</SubType>
@@ -165,11 +195,26 @@
     <EmbeddedResource Include="Form14SeleccionMultipleListBox.resx">
       <DependentUpon>Form14SeleccionMultipleListBox.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form15ColeccionNumeroListBox.resx">
+      <DependentUpon>Form15ColeccionNumeroListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form16TiendaProductos.resx">
+      <DependentUpon>Form16TiendaProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form17MetodoReferencia.resx">
+      <DependentUpon>Form17MetodoReferencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form18MetodosEvento.resx">
+      <DependentUpon>Form18MetodosEvento.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormConversion.resx">
       <DependentUpon>FormConversion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPracticaCumpleaños.resx">
       <DependentUpon>FormPracticaCumpleaños.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPracticaIndividual.resx">
+      <DependentUpon>FormPracticaIndividual.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSumar.resx">
       <DependentUpon>FormSumar.cs</DependentUpon>

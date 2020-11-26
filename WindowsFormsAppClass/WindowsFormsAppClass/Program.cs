@@ -17,7 +17,7 @@ namespace WindowsFormsAppClass
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form13ColeccionGrafica());
+            Application.Run(new FormPracticaIndividual());
         }
     }
 }
