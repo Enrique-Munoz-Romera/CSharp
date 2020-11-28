@@ -105,3 +105,7 @@ C:\Users\AlumnoMCSD\Source\Repos\CSharp2\WindowsFormsAppClass\WindowsFormsAppCla
 C:\Users\AlumnoMCSD\Source\Repos\CSharp2\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.pdb
 C:\Users\AlumnoMCSD\Source\Repos\CSharp2\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.Form20MetodosEventoColecciones.resources
 C:\Users\AlumnoMCSD\Source\Repos\CSharp2\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.Form21SumarBotonesColeccion.resources
+C:\Users\enriq\source\repos\CSharp\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.Form19ColeccionesNoGraficas.resources
+C:\Users\enriq\source\repos\CSharp\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.Form20MetodosEventoColecciones.resources
+C:\Users\enriq\source\repos\CSharp\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.Form21SumarBotonesColeccion.resources
+C:\Users\enriq\source\repos\CSharp\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.Form22TablaMultiplicar.resources

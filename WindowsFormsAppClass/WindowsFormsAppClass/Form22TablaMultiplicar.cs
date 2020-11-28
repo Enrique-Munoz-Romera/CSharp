@@ -15,12 +15,28 @@ namespace WindowsFormsAppClass
         public Form22TablaMultiplicar()
         {
             InitializeComponent();
-            Random rand = new Random();
         }
 
         private void btn2_Click(object sender, EventArgs e)
         {
+            Random rand = new Random();
+            for (int i = 0; i <= 10; i++)
+            {
+                int aleat = rand.Next(101);
+                this.txtNum.Text = aleat.ToString();
+            }
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int num = int.Parse(this.txtNum.Text);
+            
+            for(int j = 1; j <= this.grpMultiplicar.Controls.Count; j++)
+            {
+                int multi = num * j ;
+                this.grpMultiplicar.Controls[j-1].Text = multi.ToString();
+            }
         }
     }
 }

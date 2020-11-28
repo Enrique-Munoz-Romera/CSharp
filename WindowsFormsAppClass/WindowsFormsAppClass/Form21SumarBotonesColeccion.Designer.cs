@@ -47,15 +47,15 @@
             this.lblSumarNum.AutoSize = true;
             this.lblSumarNum.Location = new System.Drawing.Point(32, 28);
             this.lblSumarNum.Name = "lblSumarNum";
-            this.lblSumarNum.Size = new System.Drawing.Size(173, 24);
+            this.lblSumarNum.Size = new System.Drawing.Size(259, 33);
             this.lblSumarNum.TabIndex = 0;
             this.lblSumarNum.Text = "Sumar Numeros: ";
             // 
             // txtNumeros
             // 
-            this.txtNumeros.Location = new System.Drawing.Point(211, 28);
+            this.txtNumeros.Location = new System.Drawing.Point(250, 31);
             this.txtNumeros.Name = "txtNumeros";
-            this.txtNumeros.Size = new System.Drawing.Size(182, 29);
+            this.txtNumeros.Size = new System.Drawing.Size(182, 40);
             this.txtNumeros.TabIndex = 1;
             this.txtNumeros.Text = "0";
             // 
@@ -162,7 +162,7 @@
             // 
             // Form21SumarBotonesColeccion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(18F, 33F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(832, 574);
@@ -172,7 +172,7 @@
             this.Controls.Add(this.txtNumeros);
             this.Controls.Add(this.lblSumarNum);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form21SumarBotonesColeccion";
             this.Text = "Form21SumarBotonesColeccion";
             this.panel1.ResumeLayout(false);
