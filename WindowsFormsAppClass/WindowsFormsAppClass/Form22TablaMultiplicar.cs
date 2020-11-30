@@ -37,6 +37,7 @@ namespace WindowsFormsAppClass
                 int multi = num * j ;
                 this.grpMultiplicar.Controls[j-1].Text = multi.ToString();
             }
+            
         }
     }
 }

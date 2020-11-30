@@ -109,3 +109,10 @@ C:\Users\enriq\source\repos\CSharp\WindowsFormsAppClass\WindowsFormsAppClass\obj
 C:\Users\enriq\source\repos\CSharp\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.Form20MetodosEventoColecciones.resources
 C:\Users\enriq\source\repos\CSharp\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.Form21SumarBotonesColeccion.resources
 C:\Users\enriq\source\repos\CSharp\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.Form22TablaMultiplicar.resources
+C:\Users\enriq\source\repos\CSharp\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.Form23TemperaturasAnuales.resources
+C:\Users\enriq\source\repos\CSharp\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.Form24ControlesEnEjecucion.resources
+C:\Users\enriq\source\repos\CSharp\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.Form25SorteoPrimitiva.resources
+C:\Users\enriq\source\repos\CSharp\WindowsFormsAppClass\WindowsFormsAppClass\bin\Debug\ProyectoClases.dll
+C:\Users\enriq\source\repos\CSharp\WindowsFormsAppClass\WindowsFormsAppClass\bin\Debug\ProyectoClases.pdb
+C:\Users\enriq\source\repos\CSharp\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.Form26PruebaDeClases.resources
+C:\Users\enriq\source\repos\CSharp\WindowsFormsAppClass\WindowsFormsAppClass\obj\Debug\WindowsFormsAppClass.csproj.CopyComplete
