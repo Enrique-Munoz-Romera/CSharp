@@ -70,7 +70,7 @@ namespace WindowsFormsAppClass
             this.panel1.ForeColor = System.Drawing.Color.Red;
             this.panel1.Location = new System.Drawing.Point(131, 113);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(322, 225);
+            this.panel1.Size = new System.Drawing.Size(341, 225);
             this.panel1.TabIndex = 3;
             // 
             // Form24ControlesEnEjecucion
@@ -84,7 +84,7 @@ namespace WindowsFormsAppClass
             this.Controls.Add(this.txtValor);
             this.Controls.Add(this.lblValor);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form24ControlesEnEjecucion";
             this.Text = "Form24ControlesEnEjecucion";
             this.ResumeLayout(false);

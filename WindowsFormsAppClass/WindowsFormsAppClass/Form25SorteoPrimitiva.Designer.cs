@@ -99,7 +99,7 @@ namespace WindowsFormsAppClass
             this.Controls.Add(this.btnIniciar);
             this.Controls.Add(this.pnlNumeros);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form25SorteoPrimitiva";
             this.Text = "Form25SorteoPrimitiva";
             this.ResumeLayout(false);

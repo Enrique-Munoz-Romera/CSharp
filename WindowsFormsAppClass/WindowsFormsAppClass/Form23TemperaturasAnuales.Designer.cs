@@ -84,6 +84,7 @@ namespace WindowsFormsAppClass
             this.btnDetails.TabIndex = 3;
             this.btnDetails.Text = "Detalles";
             this.btnDetails.UseVisualStyleBackColor = false;
+            this.btnDetails.Click += new System.EventHandler(this.btnDetails_Click);
             // 
             // lblTemperaturaMax
             // 
@@ -156,7 +157,7 @@ namespace WindowsFormsAppClass
             this.Controls.Add(this.lblMonths);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Form23TemperaturasAnuales";
             this.Text = "Form23TemperaturasAnuales";
             this.ResumeLayout(false);

@@ -12,11 +12,13 @@ namespace WindowsFormsAppClass
 {
     public partial class Form25SorteoPrimitiva : Form
     {
-        
+        Button[] botones;
+       
        
         public Form25SorteoPrimitiva()
         {
             InitializeComponent();
+            this.botones = new Button[6] ;
         }
 
         private void btnIniciar_Click(object sender, EventArgs e)
@@ -46,10 +48,35 @@ namespace WindowsFormsAppClass
         }
 
         private void Seleccionado(object sender, EventArgs e)
-        {
+        {            
             Button btn = (Button)sender;
-            btn.BackColor = Color.Yellow;
-            
+            if (btn.BackColor == Color.Yellow )
+            {
+                botones = botones.Where(val => val != btn).ToArray();
+                btn.BackColor = Color.FromKnownColor(KnownColor.HotTrack);
+            }
+            else
+            {
+                btn.BackColor = Color.Yellow;
+                for(int i = 0; i<= (botones.Length-1); i++)
+                {
+                    if(botones[i] == null)
+                    {
+                        botones[i] = btn;
+                        break;
+                    }
+                }
+            }
+
+            //if(btn.BackColor != Color.Yellow){
+            //    btn.BackColor = Color.Yellow;
+            //}
+            //else
+            //{
+            //    btn.BackColor = Color.FromKnownColor(KnownColor.HotTrack);
+            //}
+
+
         }
     }
 }

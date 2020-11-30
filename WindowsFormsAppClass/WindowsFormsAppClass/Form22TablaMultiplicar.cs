@@ -25,7 +25,7 @@ namespace WindowsFormsAppClass
                 int aleat = rand.Next(101);
                 this.txtNum.Text = aleat.ToString();
             }
-
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -37,7 +37,8 @@ namespace WindowsFormsAppClass
                 int multi = num * j ;
                 this.grpMultiplicar.Controls[j-1].Text = multi.ToString();
             }
-            
+            //Para solucionar el problema del orden deberiamos haber guardado las cajas en una var
+            //y utilizar el metodo .Reverse()
         }
     }
 }
