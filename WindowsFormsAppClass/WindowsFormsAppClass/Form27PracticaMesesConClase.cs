@@ -30,9 +30,9 @@ namespace WindowsFormsAppClass
             {
                 int max = rnd.Next(10, 40);
                 int min = rnd.Next(-20, 15);
-                Class03Meses meses = new Class03Meses() ;
-                meses.Meses = fecha.ToString("MMMM");
+                String mes = fecha.ToString("MMMM");
                 fecha = fecha.AddMonths(1);
+                Class03Meses meses = new Class03Meses(mes,max,min) ;
                 this.lstMonths.Items.Add(meses.Meses);
                 this.meses.Add(meses);
                 
@@ -43,7 +43,7 @@ namespace WindowsFormsAppClass
         private void lstMonths_SelectedIndexChanged(object sender, EventArgs e)
         {
             int indice = this.lstMonths.SelectedIndex;
-            Class03Meses mes = this.meses[indice - 1];
+            Class03Meses mes = this.meses[indice];
             this.textBox1.Text = mes.Meses;
             this.textBox2.Text = mes.Maxima.ToString();
             this.textBox3.Text = mes.Minima.ToString();

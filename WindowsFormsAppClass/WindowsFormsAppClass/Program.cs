@@ -17,7 +17,7 @@ namespace WindowsFormsAppClass
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form26PruebaDeClases());
+            Application.Run(new Form29FicheroProductos());
         }
     }
 }

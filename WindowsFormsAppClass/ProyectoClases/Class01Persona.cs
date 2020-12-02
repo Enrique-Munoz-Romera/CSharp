@@ -28,17 +28,18 @@ namespace ProyectoClases
         }
         #endregion
 
+        public Class01Persona(int edad, String nombre, String apellidos)
+        {
+            Debug.WriteLine("Constructor de Persona con 3 parametros");
+        }
+
         public Class01Persona(String nombre, String apellidos)
         {
             Debug.WriteLine("Constructor de Persona con parametros");
             this.Nombre = nombre;
             this.Apellidos = apellidos;
         }
-
-        public Class01Persona(int edad, String nombre, String apellidos)
-        {
-            Debug.WriteLine("Constructor de Persona con 3 parametros");
-        }
+      
 
         #region PROPIEDADES
 

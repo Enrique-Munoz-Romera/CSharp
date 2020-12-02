@@ -11,9 +11,9 @@ namespace ProyectoClases
         #region CONSTRUCTOR
         public Class03Meses() { }
 
-        public Class03Meses(String meses, int maxima, int minima)
+        public Class03Meses(String mes, int maxima, int minima)
         {
-            this.Meses = meses;
+            this.Meses = mes;
             this.Maxima = maxima;
             this.Minima = minima;
         }

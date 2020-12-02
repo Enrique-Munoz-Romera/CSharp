@@ -53,11 +53,13 @@ namespace WindowsFormsAppClass
             Class04Empleado emp = new Class04Empleado();
             emp.Nombre = "Empleado";
             emp.Apellidos = "Apellidos emp";
-            this.lstDatos.Items.Add("Datos: " + emp.GetNombreCompleto());
+            this.lstDatos.Items.Add("Datos emp: " + emp.GetNombreCompleto());
+            Class04Empleado empleado = new Class04Empleado("emp","empApellido");
             Class05Director dire = new Class05Director();
             this.lstDatos.Items.Add("Director: " + dire.GetSalarioMinimo());
-            this.lstDatos.Items.Add("Empleado: " + emp);
-
+            this.lstDatos.Items.Add("Empleado: " + emp.GetSalarioMinimo());
+            this.lstDatos.Items.Add("Vacaciones emp: " + emp.GetVacaciones());
+            this.lstDatos.Items.Add("Dir vacaciones : " + dire.GetVacaciones());
         }
     }
 }
