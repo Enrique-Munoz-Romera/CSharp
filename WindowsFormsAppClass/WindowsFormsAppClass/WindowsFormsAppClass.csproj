@@ -208,6 +208,18 @@
     <Compile Include="Form30SerializarClase.Designer.cs">
       <DependentUpon>Form30SerializarClase.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form31SerializarColeccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form31SerializarColeccion.Designer.cs">
+      <DependentUpon>Form31SerializarColeccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form32PracticaCoches.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form32PracticaCoches.Designer.cs">
+      <DependentUpon>Form32PracticaCoches.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormConversion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -314,6 +326,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form30SerializarClase.resx">
       <DependentUpon>Form30SerializarClase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form31SerializarColeccion.resx">
+      <DependentUpon>Form31SerializarColeccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form32PracticaCoches.resx">
+      <DependentUpon>Form32PracticaCoches.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormConversion.resx">
       <DependentUpon>FormConversion.cs</DependentUpon>

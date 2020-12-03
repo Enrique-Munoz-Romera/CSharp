@@ -46,7 +46,11 @@
     <Compile Include="Class03Meses.cs" />
     <Compile Include="Class04Empleado.cs" />
     <Compile Include="Class05Director.cs" />
+    <Compile Include="Coche.cs" />
+    <Compile Include="ColeccionCoches.cs" />
+    <Compile Include="Producto.cs" />
     <Compile Include="Productos.cs" />
+    <Compile Include="ColeccionProductos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
